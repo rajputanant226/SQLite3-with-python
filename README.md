@@ -1,8 +1,8 @@
-📘 Python + SQLite3 Database Guide
+# Python + SQLite3 Database Guide
 
 A complete beginner-friendly guide to using SQLite3 with Python for creating real database-driven applications.
 
-📌 Introduction
+### Introduction
 
 SQLite3 is a lightweight, serverless, file-based relational database engine.
 Python provides a built-in module sqlite3 which makes it extremely easy to:
@@ -17,7 +17,7 @@ Build real-world apps without installing any external database
 
 This README covers everything you need to quickly get started.
 
-🔥 Why SQLite3?
+### Why SQLite3?
 
 No installation required
 
@@ -33,7 +33,7 @@ Easy to migrate to MySQL later
 
 Works seamlessly with Python
 
-🏗️ Getting Started
+### Getting Started
 ✔️ 1. Import the SQLite3 module
 import sqlite3
 
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS students (
 """)
 conn.commit()
 
-🔄 CRUD Operations
+### CRUD Operations
 ✔️ 4. Insert Data
 cursor.execute("INSERT INTO students (name, age, course) VALUES (?, ?, ?)",
                ("Anant", 21, "B.Tech IT"))
@@ -84,7 +84,7 @@ conn.commit()
 ✔️ 8. Close the Connection
 conn.close()
 
-🔍 Real-World Project Ideas (Python + SQLite3)
+### Real-World Project Ideas (Python + SQLite3)
 You can build fully working apps like:
 
 Notes App
@@ -103,7 +103,7 @@ Inventory Management App
 
 All these projects require CRUD operations — and SQLite3 fits perfectly!
 
-🎯 Best Practices
+### Best Practices
 
 Always use ? placeholder to prevent SQL Injection
 
@@ -117,7 +117,7 @@ Use functions for cleaner code structure
 
 For larger projects, structure code using MVC or modular files
 
-🚀 Summary
+### Summary
 
 With SQLite3 + Python you can:
 
